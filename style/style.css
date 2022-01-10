@@ -1,0 +1,178 @@
+body {
+    display: block;
+    background: url(backgtest.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
+#bloclogin {
+    width: 300px;
+    height: 300px;
+    margin : auto;
+    margin-top: 15%;
+    align-self: center;
+    background-color:rgb(255, 255, 255, 0.7); 
+    margin-top: 20%;
+    transition : 3s;
+    border: 8px outset darkred;
+}
+
+#categ , #rdvNV {
+    display: inline-block;
+    width: 100%;
+    padding: 1px 3px;
+    outline: 0;
+    border: 3px solid #a30101;
+    border-radius: 7px;
+}
+
+.choixcateg {
+    margin-top: 6px;
+    margin-bottom: 5px;
+}
+
+.choixcateg:hover{
+    box-shadow: 0px 0px 8px 4px #949494;
+}
+
+label:hover{
+    box-shadow: -10px 0px 0px -0px rgba(0,0,0,1);
+}
+
+#enregistrer, #modifier , #gestion , #recherche , #rdv , #syntheses , #planningsADM , #gestionRDV , #syntheseADM , #formationADM ,#userDR, #serviceDR , #statsDR  {
+    background-color: rgb(255, 255, 255, 0.7);
+    border-top: 10px ridge #ad1300;
+    border-right: 10px ridge #ad1300;
+    border-radius: 0px 40px 20px 0px;
+    position: relative;
+    margin-left: 19%;
+    padding-left: 20px;
+    display: none;
+}
+
+#titreAAC , #titreADM , #titreDR {
+    font-family: "Days One", sans-serif;
+    text-shadow: rgb(0, 0, 0) -7px 1px 2px;
+    padding-top: 1px;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    background-color: #990000;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+#menuboutons , #menuboutons2 , #menuboutons3{
+    float: left;
+}
+
+/*généré sur internet*/
+
+button {
+    width: 100%;
+    border-radius: 4px;
+    font-size: 15.1px;
+    padding:11.6px;
+    color: #FFFFFF;
+    background: linear-gradient(to bottom, #1C1A1C, #C10101);
+}
+
+input[type="submit"],input[type="reset"]{
+    font-weight: bold; 
+    border-radius: 8px;
+    font-size: 13px;
+    text-decoration: bold;
+    padding:8px;
+}
+
+button , input[type="submit"],input[type="reset"]{
+    text-decoration: none;
+    font-variant: smallcaps;
+    letter-spacing: 2.13px;
+    font-family: "Hammersmith One", sans-serif;
+    border: solid #360608 2px;
+    transition: 3s;
+    transition: all 0.15s ease;
+}
+
+button:hover , input[type="submit"]:hover, input[type="reset"]:hover { 
+    opacity: 0.9;
+    border-radius: 14px;
+    text-shadow: 1px 5px 0px #0A0808;
+    box-shadow: -4px 0px 0px #1A1A1A;
+}
+
+legend {
+    border: 5px ridge #ad1300;
+    border-radius: 10px;
+    text-decoration: bold;
+    font-variant: smallcaps;
+    letter-spacing: 1.13px;
+    color: #FFFFFF;
+    background: linear-gradient(to bottom, #1C1A1C, #C10101);
+    border: solid #360608 1px;
+    padding:5.6px;
+}
+
+label , .choixcateg  {
+    background-color: darkred;
+    color: white;
+    font-size: 16px;
+    padding: 4px;
+    border-left: 3px ridge #ad1300;
+    border-right: 3px ridge #ad1300;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+input:not("submit"), input:not("reset"){
+    font-size: 15px;
+    border:1px ridge #ad1300;
+    border-radius: 30px;
+}
+
+#planning, #menuservices, th, td {
+    text-align: center;
+    border-collapse: collapse;
+  border: 2px solid black;
+}
+
+#caseserv {
+    width: 350px;
+}
+
+th {
+    height: 30px;
+    width: 100px;
+}
+
+caption {
+    border: 2px solid black;
+    color: white;
+    padding : 5px;
+    text-align: center;
+    font-size: 23px;
+    background-color: #990000;
+    height: 25px; 
+}
+
+.busytime , .available {
+    width: 40px;
+    height: 40px,
+}
+.busytime {
+    background-color: red;
+}
+
+.available {
+    background-color: greenyellow;
+}
+
+#errorzoneAAC , #errorzoneADM {
+    font-weight: bold;
+    padding: 10px;
+    width: auto;
+    display: inline-block;
+    background-color: white;
+    display: none;
+}
